@@ -3,9 +3,9 @@
 
 struct date
 {
-	int year; //³â
-	int month; //¿ù
-	int day; //ÀÏ
+	int year;
+	int month;
+	int day;
 };
 
 struct account {
@@ -17,9 +17,9 @@ struct account {
 };
 
 int main(void) {
-	struct account me = { { 2018,3,9},"È«±æµ¿",1001,300000 };
+	struct account me = { { 2018,3,9},"í™ê¸¸ë™",1001,300000 };
 
-	printf("±¸Á¶Ã¼Å©±â: %d\n", sizeof(me));
+	printf("å¤‡ç‚¼çœ‰å†œæ‰: %d\n", sizeof(me));
 	printf("[%d,%d,%d]\n", me.open.year, me.open.month, me.open.day);
 	printf("%s %d %.2f\n", me.name, me.actnum, me.balance);
 
